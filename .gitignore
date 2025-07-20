@@ -1,1 +1,6 @@
+### Folder
 /target
+
+
+### File
+*.lock
