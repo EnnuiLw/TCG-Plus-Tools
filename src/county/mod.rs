@@ -5,7 +5,7 @@ pub mod jp;
 const BRANK: &'static str = "";
 
 #[non_exhaustive]
-#[derive(macros::VariantToString)]
+#[derive(macros::EnumString)]
 pub enum Country {
     JP(Option<jp::Prefecture>),
     EN,

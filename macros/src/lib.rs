@@ -8,7 +8,7 @@ use macro_cores::prelude::*;
 /// Usage:
 /// 
 /// ```rust
-/// #[derive(VariantToString)]
+/// #[derive(EnumString)]
 /// enum Alphabet {
 ///    Aaa,
 ///    Bbb,
@@ -24,7 +24,7 @@ use macro_cores::prelude::*;
 /// assert_eq!("Ccc", c.to_string());
 /// ```
 /// 
-#[proc_macro_derive(VariantToString)]
+#[proc_macro_derive(EnumString)]
 pub fn v_to_s(input: TokenStream) -> TokenStream {
     let input = parse_macro_input!(input as DeriveInput);
 
