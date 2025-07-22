@@ -4,10 +4,16 @@
 
 
 # installation
+`Cargo.toml`
+```
+tcg-plus-tools = { git = "https://github.com/EnnuiLw/TCG-Plus-Tools" }
+```
 
+<!-- 
 ```
 cargo install tcg-plus-tools -F en
-```
+``` 
+-->
 
 you can choose the one natural language with -F
 default is `JP`

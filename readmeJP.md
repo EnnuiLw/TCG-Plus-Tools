@@ -6,10 +6,16 @@
 
 # インストール
 
+`Cargo.toml`
 ```
-cargo install tcg-plus-tools -F en
+tcg-plus-tools = { git = "https://github.com/EnnuiLw/TCG-Plus-Tools" }
 ```
 
+<!-- 
+```
+cargo install tcg-plus-tools -F en
+``` 
+-->
 -Fを用いて一つだけ自然言語を選択できます。デフォルトは日本語。
 
 
